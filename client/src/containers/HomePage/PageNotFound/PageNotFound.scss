@@ -1,0 +1,19 @@
+.page-not-found{
+    border-top: rgb(173, 170, 170) solid 1px;
+}
+
+.row{
+    justify-content: center;
+    .content-page-not-found{
+        color: #333;
+        border-radius: 10px;
+    border: 1px solid #7e7878;
+    padding: 40px 20px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+}
+
+

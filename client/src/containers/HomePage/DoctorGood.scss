@@ -1,0 +1,71 @@
+.section-doctor-good {
+  .outstandingdoctor-container {
+    .outstandingdoctor-header {
+      padding: 20px 16px;
+      border-top: 1px solid #e9e8e8;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .outstandingdoctor-body {
+      .section-customize {
+        width: 100% !important;
+        .customize-borders {
+          border: none;
+
+          .out-bg-good {
+            display: flex;
+            padding: 21px 10px;
+            border-bottom: 1px solid #e9e8e8;
+
+            .bg-image {
+              width: 70px !important;
+              height: 70px !important;
+            }
+          }
+
+          .posittion {
+            margin-top: 20px;
+            margin-left: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .section-doctor-good {
+    .outstandingdoctor-container {
+      padding: 0 !important;
+
+      .outstandingdoctor-body .section-customize {
+        .posittion {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .section-doctor-good {
+    .section-customize {
+      .customize-borders {
+        .out-bg-good {
+          display: flex;
+          padding: 21px 10px !important;
+          border-bottom: 1px solid #e9e8e8;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 376px) {
+}

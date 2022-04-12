@@ -1,0 +1,35 @@
+.preview-img-container {
+
+
+    .label-upload {
+        padding      : 5px;
+        border-radius: 3px;
+        background   : #ddd;
+        cursor       : pointer;
+        margin-top   : 2px;
+
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+
+    }
+
+    .preview-img {
+        height         : 50px;
+        width          : 100%;
+        border         : 1px #ced4da solid;
+        background     : center center no-repeat;
+        background-size: contain;
+    }
+}
+
+button.btn.btn-primary {
+    display        : block;
+    cursor         : pointer;
+    padding        : 20px 5px;
+    justify-content: center;
+    flex-direction : column-reverse;
+    border-radius  : 5px;
+}

@@ -1,0 +1,35 @@
+.manage-schedule-container {
+    .m-s-title {
+        text-transform: uppercase;
+        font-size     : 20px;
+        text-align    : center;
+        margin-top    : 40px;
+        font-weight   : bold;
+    }
+
+    .pick-hour-container {
+        padding  : 20px 0;
+        display  : flex;
+        gap      : 20px;
+        margin   : 20px 0;
+        flex-wrap: inherit;
+
+        .btn-time {
+            margin-left     : 15px;
+            outline         : none;
+            border          : none;
+            background-color: #fff8ae;
+            padding         : 10px;
+            font-size       : 15px;
+            font-weight     : 550;
+
+            &.active {
+                color           : white;
+                background-color: #40c2fa;
+            }
+        }
+
+
+
+    }
+}

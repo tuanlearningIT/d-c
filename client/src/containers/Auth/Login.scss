@@ -1,0 +1,111 @@
+* {
+    padding   : 0px;
+    margin    : 0px;
+    box-sizing: border-box;
+}
+
+
+.login-background {
+    // background : rgb(34, 193, 195);
+    background : linear-gradient(105deg, rgba(27, 36, 155, 0.7) 20%, rgb(190, 94, 186) 50%, rgba(161, 69, 54, 0.7));
+    font-family: "work sans";
+    height     : 100vh;
+
+
+    .login {
+        background-color: #eee;
+        width           : 400px;
+        height          : 100%;
+        // left  : 25%;
+        margin          : 0 auto;
+        border-radius   : 20px;
+        position        : absolute;
+        margin          : auto;
+        top             : 0;
+        left            : 0;
+        bottom          : 0;
+        right           : 0;
+        height          : 480px;
+    }
+
+    .login-content {
+        padding: 46px 14px;
+
+        .text-login {
+            text-align : center;
+            font-size  : 30px;
+            font-weight: 600;
+            padding    : 10px 0;
+        }
+
+        .login-input {
+            margin: 7px 0;
+
+            input.form-control {
+                padding      : 21px 0.75em;
+                border-radius: 5px;
+                font-size    : 17px;
+
+                &.active {
+                    box-shadow: none;
+
+                    &:focus {
+                        border: 2.5px #0079bf solid;
+                    }
+                }
+
+            }
+
+            .custom-input {
+                position: relative;
+
+                .fa-eye,
+                .fa-eye-slash {
+                    position: absolute;
+                    right   : 11px;
+                    top     : 15px;
+                }
+            }
+
+        }
+
+        .btn-login {
+            width        : 100%;
+            height       : 40px;
+            margin       : 20px 0;
+            outline      : none;
+            border-radius: 25px;
+            border       : none;
+            background   : linear-gradient(105deg, rgb(83, 99, 194) 0%, rgb(163, 25, 25) 100%);
+            color        : white;
+            font-size    : 17px;
+        }
+
+        .forgot {
+            font-size: 12px;
+        }
+
+        .social-login {
+            display        : flex;
+            font-size      : 50px;
+            justify-content: center;
+
+            .fa-facebook {
+                padding: 15px;
+                color  : blue;
+            }
+
+            .fa-google-plus {
+                padding: 15px;
+                color  : red;
+            }
+        }
+
+        .or-sign {
+            font-size      : 19px;
+            justify-content: center;
+
+        }
+    }
+
+}

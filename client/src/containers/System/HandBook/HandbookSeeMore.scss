@@ -1,0 +1,64 @@
+.section-hb {
+  .handbook-container {
+    .handbook-header {
+      padding: 20px 16px;
+      border-top: 1px solid #e9e8e8;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
+      .title-header {
+      }
+    }
+
+    .handbook-body {
+      .section-customize {
+        display: flex;
+        padding: 21px 10px !important;
+        border-bottom: 1px solid #e9e8e8;
+        width: 100% !important;
+        .handbook-name {
+          margin-top: 0px;
+          margin-left: 10px;
+          font-size: 14px;
+        }
+
+        .section-handbook {
+          &.bg-image {
+            height: 100px !important;
+            width: 150px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .section-hb {
+    .handbook-container {
+      padding: 0 !important;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 480px) {
+  .section-hb {
+    .handbook-container {
+      padding: 0 !important;
+
+      .handbook-body .section-customize {
+        .handbook-name {
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 376px) {
+}
