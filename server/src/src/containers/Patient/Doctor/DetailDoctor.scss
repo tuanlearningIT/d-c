@@ -1,0 +1,178 @@
+.doctor-detail-container {
+  .intro-doctor {
+    display: flex;
+    margin: 0 250px;
+    padding: 20px 0px;
+
+    .content-left {
+      width: 20%;
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 20px;
+    }
+
+    .content-right {
+      width: 80%;
+
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      margin-top: 15px;
+
+      .up {
+        font-size: 27px;
+        font-weight: bold;
+      }
+
+      .down {
+        font-size: 13px;
+
+        width: 42%;
+
+        .like-share-plugin {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  .schedule-doctor {
+    margin: 0 270px;
+    display: flex;
+    min-height: 200px;
+    padding: 10px 0;
+
+    .content-left {
+      width: 50%;
+
+      margin-right: 20px;
+    }
+
+    .content-right {
+      width: 50%;
+    }
+  }
+
+  .detail-doctor {
+    background-color: #f9f9f9;
+    border-top: #ccc 1px solid;
+
+    li {
+      margin-left: 40px;
+    }
+
+    h5 {
+      font-size: 17px;
+    }
+
+    .detail-body {
+      margin: 10px 270px;
+      padding: 20px 0;
+    }
+
+    img {
+      width: 100%;
+      padding: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .content-right {
+    .down {
+      width: 100% !important;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .schedule-doctor {
+    .content-left {
+      width: 100% !important;
+    }
+    .content-right {
+      .doctor-extra-info-container {
+        width: 176% !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .intro-doctor,
+  .schedule-doctor,
+  .detail-body {
+    margin: 0 127px !important;
+  }
+  .schedule-doctor {
+    .content-left {
+      width: 71% !important;
+    }
+    .content-right {
+      .doctor-extra-info-container {
+        width: 105% !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro-doctor,
+  .schedule-doctor,
+  .detail-body {
+    margin: 0 75px !important;
+  }
+  .schedule-doctor {
+    .content-left {
+      width: 50% !important;
+    }
+    .content-right {
+      .doctor-extra-info-container {
+        width: 100% !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .intro-doctor,
+  .schedule-doctor,
+  .detail-body {
+    margin: 0 14px !important;
+  }
+  .schedule-doctor {
+    .content-left {
+      border-bottom: 1px solid #ddd !important;
+      width: 101% !important;
+      .book-free {
+        margin-bottom: 10px;
+      }
+    }
+    .content-right {
+      margin-top: 10px;
+      width: 100% !important;
+      .doctor-extra-info-container {
+        padding-left: 0 !important;
+        width: 100% !important;
+      }
+    }
+    .doctor-schedule-content {
+      border-right: none !important;
+    }
+  }
+  .schedule-doctor {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .doctor-detail-container .intro-doctor .content-right {
+    width: 71% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .doctor-detail-container .intro-doctor .content-right {
+    width: 64% !important;
+  }
+}
+@media screen and (max-width: 376px) {
+}
